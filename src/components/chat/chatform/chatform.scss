@@ -1,0 +1,38 @@
+.chat-form-section{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background: #f6f6f6;
+    min-height: 49px;
+    justify-content: center;
+    input{
+        position: relative;
+        border-radius: 20px;
+        height: 30px;
+        width: 87%;
+        padding-left: 15px;
+        font-size: 16px;
+        color: #919191;
+        border:none;
+        outline: none;
+        left: 18px;
+    }
+    .icon-paperclip{
+        position: absolute;
+        left: 37.8%;
+        color: #919191;
+        font-size: 24px;
+    }
+    .icon-voice{
+        position: absolute;
+        right: 15px;
+        color: #919191;
+        font-size: 22px;
+    }
+    .icon-smiley{
+        position: absolute;
+        left: 35.5%;
+        color: #919191;
+        font-size: 22px;
+    }
+}

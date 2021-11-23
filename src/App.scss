@@ -1,0 +1,17 @@
+.App{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .left-side{
+    width: 35%;
+    height: 100vh;
+    border-right: 1px solid #ededed;
+    flex-direction: column;
+  }
+  .right-side{
+    flex:1;
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+  }
+}
